@@ -1,0 +1,234 @@
+.side-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.side-head{
+    font-family: Roboto;
+    font-size: 31.52px;
+    font-weight: 500;
+    line-height: 36.94px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding-left: 1vw;
+}
+.create-head{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 17vw;
+    height: 5vh;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.38px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: relative;
+    left: 2vw;
+    cursor: pointer;
+}
+.plus{
+    padding-right: 1vw;
+    font-family: Roboto;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.side-list{
+    height: 8vh;
+    border-radius: 32px 0px 0px 32px;
+    width: 26.38vw;
+    position: relative;
+    left: 1vw;
+    cursor: pointer;
+}
+.list-container{
+    padding-top: 2vh;
+}
+.list-icon-div{
+    height: 6vh;
+    width: 3vw;
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+}
+.list-icon{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    left: 0.7vw;
+    top: 1.4vh;
+}
+.list-title{
+    width: 10vw;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    bottom: 5.5vh;
+    left: 3vw;
+}
+.newcreate-container{
+    height: 40vh;
+    width: 40vw;
+    z-index: 2;
+    background-color: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-radius: 6px;
+    position: fixed;
+    top: 20vh;
+    left: 28vw;
+}
+.newcreate-head{
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 46.45px;
+    letter-spacing: 0.035em;
+    text-align: left;
+    position: relative;
+    left: 2vw;
+}
+.input-label{
+    font-family: Roboto;
+    font-size: 27.31px;
+    font-weight: 500;
+    line-height: 43.75px;
+    letter-spacing: 0.035em;
+    text-align: left;
+    position: relative;
+    left: 2vw;
+}
+#create{
+    height: 4vh;
+    width: 20vw;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    border: 2px solid #CCCCCC;
+    border-radius: 22px;
+    padding-left: 2vw;
+    position: relative;
+    left: 4vw;
+    bottom: 0.5vh;
+}
+.color-para{
+    font-family: Roboto;
+    font-size: 27.31px;
+    font-weight: 500;
+    line-height: 43.75px;
+    letter-spacing: 0.035em;
+    text-align: left;
+    position: relative;
+    left: 2vw;
+}
+.color-each{
+    position: relative;
+    left: 3vw;
+    top: 4.5vh;
+}
+.color-submit{
+    width: 8vw;
+    height: 4vh;
+    background-color: #000000;
+    border: 2px solid black;
+    border-radius: 11px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    left: 30vw;
+}
+@media (max-width: 768px){
+    .side-head{
+        font-family: Roboto;
+        font-size: 31.52px;
+        font-weight: 500;
+        line-height: 36.94px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+    .create-head{
+        width: 90vw;
+    }
+    .plus{
+        padding-right: 5vw;
+        font-family: Roboto;
+        font-weight: bolder;
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+    .newcreate-container{
+        width: 80vw;
+        height: 45vh;
+        position: relative;
+        top: 10vh;
+        left: 10vw;
+    }
+    .newcreate-head{
+        font-size: Roboto;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .input-label{
+        font-size: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+        top: 1vh;
+    }
+    #create{
+        font-size: Roboto;
+        font-size: 13px;
+        font-weight: 400;
+        width: 40vw;
+        position: relative;
+        top: 1vh;
+    }
+    .color-para{
+        font-size: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+        top: 1vh;
+    }
+    .color-div{
+        width: 75vw;
+    }
+    .color-submit{
+        width: 25vw;
+        position: relative;
+        top: 5vh;
+        left: 48vw;
+        font-size: 20px;
+    }
+    .side-list{
+        width: 80vw;
+        position: relative;
+        left: 5vw;
+    }
+    .list-icon-div{
+        width: 12vw;
+        height: 6vh;
+    }
+    .list-icon{
+        padding-top: .5vh;
+        padding-left: 2vw;
+    }
+    .list-title{
+        font-family: Roboto;
+        width: 50vw;
+        font-size: 20px;
+        font-weight: 500;
+        position: relative;
+        bottom: 5.5vh;
+        left: 18vw;
+    }
+}

@@ -1,0 +1,226 @@
+.main-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 10vh 2vh 25vh;
+}
+.main-head{
+    grid-row: 1/2;
+    background-color:#E8E8E8;
+}
+.main-icon{
+    height: 6vh;
+    width: 3vw;
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+}
+.main-icon-para{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 1.3vh;
+    left: 0.65vw;
+}
+.main-title{
+    width: 10vw;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    bottom: 5.5vh;
+    left: 5vw;
+}
+.main-notes{
+    grid-row: 2/3;
+}
+.main-list{
+    width: 65vw;
+    height: 60vh;
+    overflow-y: scroll;
+    position: relative;
+    left: 3vw;
+    top: 2.5vh;
+}
+.main-textarea{
+    grid-row: 3/4;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 63vh;
+}
+.main-input{
+    background-color: #E8E8E8;
+    border-radius: 0 0 0 9px;
+    height: 23.5vh;
+}
+.main-area{
+    color: #9A9A9A;
+    outline: none;
+    width: 66vw;
+    height: 20vh;
+    border: 1px solid #CCCCCC;
+    border-radius: 9px;
+    font-family: Roboto;
+    font-size: 29.82px;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 1.5vh;
+    left: 2vw;
+}
+.arrow{
+    z-index: 2;
+    position: relative;
+    top: 9vh;
+    right: 1vw;
+}
+.main-date1{
+    font-family: Roboto;
+    font-size: 18.63px;
+    font-weight: 500;
+    text-align: left;
+}
+.main-date2{
+    font-family: Roboto;
+    font-size: 18.63px;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+    bottom: 4vh;
+}
+.main-text{
+    width: 45vw;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.83px;
+    letter-spacing: 0.035em;
+    text-align: left;
+    position: relative;
+    top: 2vh;
+}
+@media (max-width: 768px){
+    .main-container1{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100vw;
+        height: 100vh;
+        background-color: #F7ECDC;
+        display: grid;
+        grid-template-rows: 10vh 2vh 25vh;
+    }
+    .main-head1{
+        width: 100vw;
+        grid-row: 1/2;
+        background-color: #E8E8E8;
+    }
+    .main-back{
+        width: 8vw;
+        height: 3vh;
+        position: relative;
+        top: 3vh;
+        left: 1vw;
+    }
+    .main-icon1{
+        width: 12vw;
+        height: 6vh;
+        position: relative;
+        bottom: 1.5vh;
+        left: 15vw;
+    }
+    .main-icon-para1{
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        position: relative;
+        left: 1.35vh;
+        top: 1.65vh;
+    }
+    .main-title1{
+        color: #000000;
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: left;
+        position: relative;
+        left: 33vw;
+        bottom: 10vh;
+    }
+    .main-list1{
+        grid-row: 2/3;
+        width: 85vw;
+        height: 60vh;
+        overflow-y: scroll;
+        position: relative;
+        top: 3vh;
+        left: 7vw;
+    }
+    .main-date11{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20.82px;
+        letter-spacing: 0.035em;
+        text-align: left;
+    }
+    .main-date21{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20.82px;
+        letter-spacing: 0.035em;
+        text-align: left;
+        position: relative;
+        bottom: 4vh;
+    }
+    .main-text1{
+        width: 42vw;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20.82px;
+        letter-spacing: 0.035em;
+        text-align: left;
+        position: relative;
+        top: 3vh;
+    }
+    .main-textarea1{
+        width: 100vw;
+        grid-row: 3/4;
+        background-color: #FFFFFF;
+        position: relative;
+        top: 63vh;
+    }
+    .main-input1{
+        background-color: #E8E8E8;
+        border-radius: 0 0 0 9px;
+        height: 23.5vh;
+    }
+    .main-area1{
+        color: #9A9A9A;
+        outline: none;
+        width: 94vw;
+        height: 20vh;
+        border: 1px solid #CCCCCC;
+        border-radius: 9px;
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: left;
+        position: relative;
+        top: 1.5vh;
+        left: 2vw;
+    }
+    .arrow1{
+        position: relative;
+        left: 90vw;
+        bottom: 3vh;
+    }
+}
