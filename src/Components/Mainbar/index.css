@@ -41,7 +41,7 @@
 .main-list{
     width: 65vw;
     height: 60vh;
-    overflow-y: scroll;
+    overflow-y: auto;
     position: relative;
     left: 3vw;
     top: 2.5vh;
@@ -110,6 +110,7 @@
         box-sizing: border-box;
         width: 100vw;
         height: 100vh;
+        overflow: hidden;
         background-color: #F7ECDC;
         display: grid;
         grid-template-rows: 10vh 2vh 25vh;
